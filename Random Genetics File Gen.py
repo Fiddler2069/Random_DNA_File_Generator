@@ -21,8 +21,12 @@ file_name = input("File Name: ")
 # generate actual random DNA sequence
 for x in range(length):
     sequence += random.choice(dna_letter)
-print(sequence)
+# print(sequence)
 
 # Print Code execution time
 # print ("time elapsed: {:.2f}s".format(time.time() - start_time))
 # 10,000 bases takes about 0.01 seconds to generate
+
+# file open for write
+with open(file_name, "w") as f:
+    f.write(sequence)
