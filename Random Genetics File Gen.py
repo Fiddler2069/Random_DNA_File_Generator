@@ -25,3 +25,4 @@ print(sequence)
 
 # Print Code execution time
 # print ("time elapsed: {:.2f}s".format(time.time() - start_time))
+# 10,000 bases takes about 0.01 seconds to generate
