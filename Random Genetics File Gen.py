@@ -7,7 +7,7 @@ sequence = ""
 seq_length = input("Length of Sequence (in multiples of 1000): ")
 
 # actual length determined by multiplier
-length = int(seq_length) * 100
+length = int(seq_length) * 1000
 
 file_name = input("File Name: ")
 
